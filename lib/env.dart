@@ -6,14 +6,15 @@ Map<String, dynamic> environment = {
 
     /// 🌍 The register URL domain that matches with Envato Purchase Code
     /// 🔑 Also, make sure to update the envatoPurchaseCode from configs/env.properties
-    'url': 'https://your-domain.com',
-    'consumerKey': 'ck_xxxxxxxxxxxxxx',
-    'consumerSecret': 'cs_xxxxxxxxxxxx',
+    'url': 'https://demo.bid2bill.com',
+    'consumerKey': 'ck_658081112981f466fe636901bb1cfeaf2d2d255e',
+    'consumerSecret': 'cs_1f611f6476276fababf5b8188cbcd4b588c43588',
 
-    'blog': 'https://your-domain.com',
+    'blog': 'https://demo.bid2bill.com/blog',
 
     /// remove to use as native screen
-    'forgetPassword': 'https://your-domain.com/wp-login.php?action=lostpassword'
+    'forgetPassword':
+        'https://demo.bid2bill.com/wp-login.php?action=lostpassword'
   },
 
   /// ➡️ lib/common/config/general.dart
